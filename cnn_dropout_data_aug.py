@@ -59,7 +59,7 @@ model.compile(optimizer=Adam(lr=1e-4),
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 
-###### Image Generator with Aumentation ######
+###### Image Generator with Augmentation ######
 train_datagen = ImageDataGenerator(
         rescale=1./255,
         rotation_range=40,
